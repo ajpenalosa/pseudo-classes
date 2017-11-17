@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    display: inline-block;
+    width: 25%;
+    padding: 20px;
+    text-decoration: none;
+    border: 0px;
+    font-weight: normal;
+}
+
+/* First Link */
+
+a.first-link {
+    font-size: 20px;
+    background-color: #c70000;
+    color: #FFF;
+}
+
+a.first-link:active {
+    width: 100%;
+}
+
+a.first-link:hover {
+    background-color: #000;
+}
+
+a.first-link:focus {
+    background-color: orange;
+    width: 50%;
+}
+
+/* Second Link */
+
+a.second-link {
+    font-size: 20px;
+    background-color: #c70000;
+    color: #FFF;
+}
+
+a.second-link:active {
+    width: 100%;
+}
+
+a.second-link:hover {
+    background-color: #000;
+    width: 50%;
+}
+
+a.second-link:focus {
+    background-color: orange;
+}
+
+/* Third Link */
+
+a.third-link {
+    font-size: 20px;
+    background-color: #c70000;
+    color: #FFF;
+}
+
+a.third-link:active {
+    width: 100%;
+}
+
+a.third-link:hover {
+    background-color: #000;
+    width: 50%;
+    font-weight: bold;
+}
+
+a.third-link:focus {
+    background-color: orange;
+}
